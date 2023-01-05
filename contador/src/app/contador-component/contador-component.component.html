@@ -1,0 +1,13 @@
+<body>
+    
+<h1 class="titulo">Contador em Angular</h1>
+
+<div class="container">
+    <button mat-raised-button color="primary" (click)="decrementa()">-</button>
+    <mat-form-field appearance="fill">
+        <mat-label>Contador</mat-label>
+        <input matInput type="text" [value]="valor" readonly>
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="incrementa()">+</button>
+</div>
+</body>

@@ -1,0 +1,15 @@
+body{
+    background-color: #002F30;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
